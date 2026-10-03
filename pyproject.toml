@@ -1,0 +1,23 @@
+[project]
+name = "my-second-harness"
+version = "0.1.0"
+description = "A file based Python agent harness with tool calling, PostgreSQL memory, and document parsing."
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.141.1",
+    "httpx>=0.28.1",
+    "ipykernel>=7.3.0",
+    "openai>=3.24.0",
+    "openpyxl>=3.1.5",
+    "pymupdf>=1.24.0",
+    "psycopg[binary]>=3.3.6",
+    "pydantic>=2.13.5",
+    "python-docx>=1.1.2",
+    "pywin32>=306; sys_platform == 'win32'",
+    "python-dotenv>=1.2.3",
+    "pyyaml>=6.0.3",
+    "requests>=2.34.2",
+    "rich>=15.0.0",
+    "uvicorn>=0.54.0",
+    "pymilvus>=3.0.2",
+]

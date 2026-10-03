@@ -1,0 +1,37 @@
+# ---- 密钥 ----
+.env
+.env.*
+!.env.example
+# ---- Python 虚拟环境 ----
+.venv/
+venv/
+env/
+# ---- Python 缓存 ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+# ---- 测试/类型检查缓存 ----
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+# ---- 运行时产物 ----
+logs/
+*.log
+# ---- IDE ----
+.idea/
+.vscode/
+# ---- 操作系统 ----
+.DS_Store
+Thumbs.db
+# ---- 构建产物 ----
+build/
+dist/
+*.egg-info/
+# ---- uv ----
+/test_data/
+/data/
+/tmp/
+/logs/
+# 探索阶段的测试脚本、Notebook 和 HTML 样例不随源码发布
+/tests/
